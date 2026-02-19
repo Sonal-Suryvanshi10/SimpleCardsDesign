@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    border: 4px solid #00EEFE;
+    width: 20rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: black;
+
+    position: relative;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    margin-top: 2rem;
+    width: 140px;
+    border-radius: 50%;
+    outline: 3px solid #090909;
+    position: relative;
+    z-index: +2;
+}
+
+.icon {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem ;
+    font-size: 1.5rem ;
+}
+
+.content {
+    text-align: center;
+    background-color: black;
+}
+
+.color {
+    color: aliceblue;
+}
+
+#size {
+    font-size: 1.3rem;
+    margin-top: 2%;
+}
+
+.content button {
+    text-align: center;
+    font-size: medium;
+    padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1rem;
+    margin-top: 1%;
+    margin-bottom: 2rem;
+    background-color: #00EEFE;
+    border: none;
+    border-radius: 2rem;
+}
+
+.circle {
+    background-color: aqua;
+    height: 22rem;
+    width: 22rem;
+    border-radius: 50%;
+
+    position: absolute;
+    top: -10rem;
+    left: -7rem;
+}
+
+.brandLogos i {
+
+    position: relative;
+    top: -10rem;
+    right: -7rem;
+    z-index: -1;
+
+}

@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   background: linear-gradient(#9BA8B6, #E7EBED);
+
+   /* border: 2px solid red; */
+   /* background-color: #7bafe6; */
+}
+
+.MainCard {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.MainCard i {
+    color: aliceblue;
+    font-size: 2cm;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    /* z-index: +1 ; */
+}
+
+.card1 {
+    margin: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 30vh;
+    text-align: center;
+    border: 7px solid white;
+    border-radius: 1.5rem;
+    background-color: white;
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+.card2 {
+    margin: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 30vh;
+    text-align: center;
+    border: 7px solid white;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background-color: white;
+
+    position: relative;
+}
+
+.card3 {
+    margin: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 30vh;
+    text-align: center;
+    border: 7px solid white;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background-color: white;
+
+    position: relative;
+}
+
+.card4 {
+    margin: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 30vh;
+    text-align: center;
+    border: 7px solid white;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    background-color: white;
+
+    position: relative;
+}
+
+.button {
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 3rem;
+    border: none;
+    color: white;
+}
+
+.para {
+    margin: 1rem;
+}
+
+.circle {
+    height: 32rem;
+    width: 34rem;
+    border-radius: 50%;
+
+    position: absolute;
+    top: -18rem;
+    left: -16rem;
+    z-index:+1;
+}
+
+i {
+    position: relative;
+    z-index: 2;
+}
+
+#conic1 {
+    background: conic-gradient(#F33A13, #F9A320);
+}
+#bg1 {
+    background: conic-gradient(#F33A13, #F9A320);
+}
+
+#conic2 {
+    background: conic-gradient(#8800FF, #D801FF);
+}
+#bg2 {
+    background: conic-gradient(#8800FF, #D801FF);
+}
+
+#conic3 {
+    background: conic-gradient(#4E3CA4, #A3B6F8);
+}
+#bg3 {
+    background: conic-gradient(#4E3CA4, #A3B6F8);
+}
+
+#conic4 {
+    background: conic-gradient(#14A08B, #38E97D);
+}
+#bg4 {
+    background: conic-gradient(#14A08B, #38E97D);
+}
+
+/* .rectangle {
+    background-color:white ;
+    height: 20rem;
+    width: 20rem;
+
+    position: absolute;
+    bottom: -18rem;
+    left: -16rem;
+    z-index: -1;
+} */
